@@ -17,26 +17,39 @@
     <title>Hike Hungary</title>
 </head>
 
-<body class="body">
-    <div class="navbar navbar-expand navbar-dark bg-dark navbar-expand-md">
+<body>
+    <div class="navbar navbar-expand navbar-expand-md">
         <div class="container">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <a href="#" class="navbar-brand">Hike Hungary</a>
+            <a class="navbar-brand" href="#">
+                <img src="./images/HIKE HUNGARY_free-file.png" alt="Hike Hungary" width="150" height="150">
+              </a>
             <ul class="navbar-nav">
+                <div class="dropdown">
+                    <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Activity type
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Hiking</a></li>
+                      <li><a class="dropdown-item" href="#">Light stroll</a></li>
+                      <li><a class="dropdown-item" href="#">Wandering around</a></li>
+                    </ul>
+                  </div>
                 <li class="nav-item">
-                    <a href="#" class="nav-link active" aria-current="page">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link active" aria-current="page">Store</a>
+                    <a href="#" class="nav-link active" aria-current="page">About</a>
                 </li>
                 <li class="nav-item">
                     <a href="#" class="nav-link active" aria-current="page">Contact</a>
                 </li>
             </ul>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
         </div>
     </div>
     </div>
@@ -76,7 +89,7 @@
 
     <div class="container">
         <div class="row">
-            <div class="col my-3">
+            <div class="col">
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing. <br>
                     Laudantium nisi ex, labore, deleniti at sint eveniet quisquam tempore doloribus accusantium iste,
@@ -103,29 +116,32 @@
         <div class="row">
             <div class="col-4">
                 <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="https://images.unsplash.com/photo-1660851098013-c1e32f585d66?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" class="card-img-top" alt="Great plains">
+                    <!--Copyright Denes Kozma unsplash.com-->
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <a href="#" class="btn btn-primary">Visit the Great plains</a>
                     </div>
                 </div>
             </div>
             <div class="col-4">
                 <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="https://images.unsplash.com/photo-1627462096404-3d7bd4596379?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1051&q=80" class="card-img-top" alt="couple in a field">
+                    <!--Copyright: Balint Molnar unsplash.com-->
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <a href="#" class="btn btn-primary">Visit lake Balaton</a>
                     </div>
                 </div>
             </div>
             <div class="col-4">
                 <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="https://images.unsplash.com/photo-1573324338921-23c5da9f19cd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" class="card-img-top" alt="bird on a lake">
+                    <!--Copyright Laszlo Glatz unsplash.com-->
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
@@ -140,7 +156,7 @@
     <div class="container my-5">
         <div class="row">
             <div class="col">
-<img src="https://images.unsplash.com/photo-1602845860431-35374f24f48d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80" alt="Backpack on field">
+<img id="backpack" src="https://images.unsplash.com/photo-1602845860431-35374f24f48d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80" alt="Backpack on field">
 <!--Copyright: Adam Hornyak unsplash.com-->
 </div>
 
